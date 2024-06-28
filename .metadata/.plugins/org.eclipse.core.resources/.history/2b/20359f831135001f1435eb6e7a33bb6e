@@ -1,0 +1,34 @@
+package com.crud.dao;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.crud.entity.Customer;
+
+@Repository
+public class CustomerDAOImpl implements CustomerDAO {
+
+	@Override
+	public List<Customer> getCustomers() {
+
+		return null;
+	}
+
+	@Override
+	public void saveCustomer(Customer theCustomer) {
+
+	}
+
+	@Override
+	public Customer getCustomer(int theId) {
+
+		return null;
+	}
+
+	@Override
+	public void deleteCustomer(int theId) {
+
+	}
+
+}

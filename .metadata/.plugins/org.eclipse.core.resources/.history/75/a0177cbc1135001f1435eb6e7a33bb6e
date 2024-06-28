@@ -1,0 +1,45 @@
+package com.crud.dao;
+
+import java.util.List;
+
+import javax.persistence.criteria.CriteriaBuilder;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.crud.entity.Customer;
+
+@Repository
+public class CustomerDAOImpl implements CustomerDAO {
+
+	@Autowired
+	private SessionFactory sessionFactory;
+
+	@Override
+	public List<Customer> getCustomers() {
+
+		Session session = sessionFactory.getCurrentSession();
+		CriteriaBuilder cb = session.getCriteriaBuilder();
+
+		return null;
+	}
+
+	@Override
+	public void saveCustomer(Customer theCustomer) {
+
+	}
+
+	@Override
+	public Customer getCustomer(int theId) {
+
+		return null;
+	}
+
+	@Override
+	public void deleteCustomer(int theId) {
+
+	}
+
+}

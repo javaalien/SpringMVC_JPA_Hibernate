@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+G:\PracticeApplications\SpringMVC_JPA_Hibernate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\345719320.index
+\com.crud\src\main\resources
+G:\PracticeApplications\SpringMVC_JPA_Hibernate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1217779423.index
+\springmvc-hibernate-crud-web-app\src\main\resources
+G:\PracticeApplications\SpringMVC_JPA_Hibernate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2458266802.index
+\springmvc-hibernate-crud-web-app\src\main\java
