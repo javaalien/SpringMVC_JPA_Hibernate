@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="G:\PracticeApplications\SpringMVC_JPA_Hibernate\springmvc-hibernate-crud-web-app"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,13 +26,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.configexample.alien"/>
 			<item value="com.crud"/>
 		</list>
 		<list key="groupId">
+			<item value="com.configexample.alien"/>
 			<item value="com.crud"/>
 			<item value="springmvc-hibernate-crud-web-app"/>
 		</list>
 		<list key="artifactId">
+			<item value="springmvc-java-config-example"/>
 			<item value="springmvc-hibernate-crud-web-app"/>
 			<item value="com.crud"/>
 		</list>
